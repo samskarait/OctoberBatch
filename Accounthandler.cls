@@ -1,9 +1,7 @@
 /**
- * @description       : 
  * @author            : SWAPNAIT
  * @last modified on  : 11-04-2023
  * @last modified by  : SWAPNAIT 
- * Modifications Log
  * Ver   Date         Author     Modification
  * 1.0   11-04-2023   SWAPNAIT   Initial Version
 **/
@@ -13,7 +11,7 @@ public with sharing class Accounthandler {
     if(acc!=null)
     {
         insert acc;
-    }
+   }
     return acc.Id;
    }
    @AuraEnabled
